@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Bunkbed</title>
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="The Bunkbed Podcast">
+    <meta name="Description" content="The Bunkbed Podcast"/>
+    <!-- Open Graph data -->
+    <meta property="og:title" content="The Bunkbed Podcast" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://thebunkbedpodcast.com" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="The Bunkbed Podcast" />
+    <!-- Mobile header color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#DF9EC8">
+    <!-- Mobile header color Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#DF9EC8">
+    <!-- Mobile header color for iOS Safari (supports black, black-translucent or default) -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="icon" type="image/png" href="<%= require('./src/assets/favicon.png') %>" />
+
+</head>
+<body class="d-flex flex-column h-100">
+    <main role="main" class="flex-shrink-0">
+        <div class="container">
+            <div class="logo">
+                <img class="img-fluid" src="<%= require('./src/assets/logo.png') %>" alt="logo">
+            </div>
+
+            <div class="row nav">
+                <div class="col-sm"><a href="#episodes">Episodes</a></div>
+                <div class="col-sm"><a href="#about">About</a></div>
+                <div class="col-sm"><a href="#connect">Connect</a></div>
+            </div>
+
+            <section id="episodes">
+                <h2>Episodes</h2>
+                <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/555166950&color=%23b298f1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </section>
+
+            <section id="about">
+                <h2>About Us</h2>
+                <div class="section-container">
+                    <p class="text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat turpis vel dolor aliquam euismod. Ut vitae magna nibh. Nullam luctus purus vitae orci imperdiet, non ultrices ipsum iaculis. Mauris finibus ex ut odio fringilla maximus. Quisque imperdiet, neque a vehicula euismod, mauris sapien tristique arcu, at fringilla augue mi id mauris. In id volutpat lacus. In dictum est eget ex tincidunt, a iaculis ipsum lobortis. Donec feugiat eros et turpis bibendum elementum. Mauris imperdiet est sed quam tincidunt, ut aliquam mauris semper.
+                    </p>
+
+                    <p class="text-justify">
+                        Morbi aliquet finibus nisi in porta. Ut nunc massa, blandit suscipit scelerisque non, ornare sed ipsum. Vivamus eget ornare justo. Nam pretium, ligula at efficitur feugiat, diam nisi tempor diam, ut vestibulum mi massa pellentesque sem. Aliquam ipsum leo, mollis in lectus mollis, maximus dapibus dui. Donec ac porta nisi. Nulla suscipit pharetra diam.
+                    </p>
+                            
+                    <p class="text-justify">
+                        Aliquam mattis tellus non sagittis congue. Proin varius hendrerit quam, quis gravida mi condimentum vitae. Suspendisse tincidunt aliquet dictum. Donec porttitor nisi a urna dictum, et dapibus nulla blandit. Aenean tincidunt vitae tortor sed eleifend. Aenean fermentum nisl in ipsum blandit euismod. Proin consectetur lectus dolor, eget viverra est lacinia non. Sed pellentesque elementum volutpat. Phasellus bibendum tristique vulputate. Curabitur interdum tincidunt ante, vitae blandit eros efficitur tempus. Donec eu quam aliquet, pellentesque nibh egestas, malesuada nibh. Nullam consectetur leo arcu, et laoreet tortor congue non. Sed ante odio, fermentum et quam ac, finibus bibendum sem. Etiam dictum venenatis ornare. 
+                    </p>
+                </div>
+            </section>
+
+            <section id="connect">
+                <h2>Connect</h2>
+                <div class="connect-logos">
+                    <span><a target="_blank" href="https://soundcloud.com/thebunkbed"><i class="fab fa-soundcloud"></i></a></span>
+                    <span><a target="_blank" href="#"><i class="fab fa-facebook"></i></a></span>
+                    <span><a target="_blank" href="https://twitter.com/TheBunkBedShow"><i class="fab fa-twitter"></i></a></span>
+                </div>
+            </section>
+        </div>
+    </main>
+            
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <p class="text-muted">Made with <i class="fas fa-heart" style="color: red"></i> from New Hampshire</p>
+            <p class="text-muted">© The Bunkbed Podcast</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.2/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-zDnhMsjVZfS3hiP7oCBRmfjkQC4fzxVxFhBx8Hkz2aZX8gEvA/jsP3eXRCvzTofP" crossorigin="anonymous"></script></body>
+</html>
+</body>
+</html>

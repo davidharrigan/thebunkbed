@@ -1,0 +1,68 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary-color: #dd98cf;
+$dark: #5d3e5e;
+$linen: #f9f4de;
+$tan: #cfa275;
+$grey: #7ca0a5;
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    background-color: $primary-color;
+}
+
+.logo {
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.section-container {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
+    border-radius: 2px;
+}
+
+h2 {
+    color: $dark;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.20);
+}
+
+.nav {
+    color: $dark;
+    text-align: center;
+    padding: 60px 20px 20px 20px;
+    max-width: 680px;
+    margin: auto;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.20);
+}
+
+.container {
+    width: auto;
+    max-width: 980px;
+    padding: 20px 15px;
+}
+
+.connect-logos {
+    text-align: center;
+    font-size: 40px;
+    span {
+        padding: 10px;
+    }
+}
+  
+.footer {
+    text-align: center;
+    background-color: $linen;
+    box-shadow: inset 0px 2px 2px rgba(0,0,0,0.18);
+}
+  
